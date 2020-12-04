@@ -19,7 +19,7 @@ function makeCard(obj) {
     } else if (obj.format.includes("video")) {
       thumbSrc = '<svg class="bi w-50 text-body" fill="currentColor"><use xlink:href="{{ "/assets/lib/bootstrap-icons.svg" | relative_url }}#file-earmark-play"/></svg><span class="sr-only">Video File</span>';
     } else {
-        var thumbSrc = '<svg class="bi w-50 text-body" fill="currentColor"><use xlink:href="{{ "/assets/lib/bootstrap-icons.svg" | relative_url }}#file-earmark"/></svg><span class="sr-only">File Icon</span>';
+        var thumbSrc = '<svg class="bi w-50 text-body" fill="currentColor"><use xlink:href="{{ "/assets/lib/bootstrap-icons.svg" | relative_url }}#exclamation-square"/></svg><span class="sr-only">File Icon</span>';
     }
     // start card
     var card = '<div class="item col-lg-4 col-md-6 col-sm-12 mb-2"><div class="card">';

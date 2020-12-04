@@ -1,6 +1,7 @@
 field,display_name,btn,hidden,sort_name
-date,Date,,,Date
-creator,Creator,,,
-subject,,true
+timedate,Date,,,Date
+username,Username
+lockouts,,true
+gateway,,true
+code,code
 location,,true
-identifier,,,true,Identifier

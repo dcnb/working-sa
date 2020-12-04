@@ -22,7 +22,7 @@
       {% when 'url' %}
       <a class="text-dark" href="{{ 'pdf' | prepend: '/browse.html#' | relative_url }}">URLs {% include feature/icon.html icon="link" %}</a><br>
       {% else %}
-      <a class="text-dark" href="{{ 'pdf' | prepend: '/browse.html#' | relative_url }}">Files {% include feature/icon.html icon="file-earmark" %}</a><br>
+      <a class="text-dark" href="{{ 'pdf' | prepend: '/browse.html#' | relative_url }}">Files {% include feature/icon.html icon="exclamation-square" %}</a><br>
       {%- endcase -%}
       {%- endif -%}
       {%- endfor -%}
